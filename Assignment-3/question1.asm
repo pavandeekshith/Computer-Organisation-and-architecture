@@ -2,7 +2,7 @@
 num1:   .word 0x1634   # First 16-bit number (5684)
 num2:   .word 0x0500   # Second 16-bit number (1280)
 result: .word 0       # To store the subtraction result (5684 - 1280 = 440)
-msg:    .asciiz "Result: " # Message to print before the result
+msg:    .asciiz "Result: " 
 .text
 .globl main
 
